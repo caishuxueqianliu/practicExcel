@@ -11,9 +11,9 @@
           <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <a class="navbar-brand" >{{time}}</a>
   <div class="navdiv">
-   <router-link to="/" class="navbar-brand" >Home</router-link>
+   <router-link to="/home" class="navbar-brand" >Home</router-link>
    <router-link to="/Config" class="navbar-brand" v-show="isConf">Config</router-link>
-   <router-link to="/About" class="navbar-brand" >Tools</router-link>
+   <router-link to="/" class="navbar-brand" >Tools</router-link>
  </div>
 </nav>
     </div>

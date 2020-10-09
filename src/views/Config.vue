@@ -10,7 +10,7 @@
     <a class="nav-item nav-link active" @click="reqInfo()" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">访问配置中心</a>
     <a class="nav-item nav-link" @click="reqGetServer()" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">获取服务器</a>
     <a class="nav-item nav-link" @click="reqRegister()" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">注册及登陆</a>
-      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-login" role="tab" aria-controls="nav-login" aria-selected="false">其他</a>
+      <a class="nav-item nav-link" id="nav-contact-tab" @click='ceshi()' data-toggle="tab" href="#nav-login" role="tab" aria-controls="nav-login" aria-selected="false">其他</a>
      
   </div>
 </nav>
@@ -46,7 +46,7 @@
  
 
     </div>
-      <div class="tab-pane fade" id="nav-extend" role="tabpanel" aria-labelledby="nav-extend-tab">5</div>
+      <div   class="tab-pane fade" id="nav-extend" role="tabpanel" aria-labelledby="nav-extend-tab"> </div>
 </div>
  <!--  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
 </div>
@@ -58,6 +58,7 @@
 
 import {reqPostInfo,reqGetSeverList,reqPostRegister,reqPostLogin} from '../api'
 import crypt from '../crypt.js'
+ //const jsonp = require('jsonp');
 export default{
 data(){
 	return{
@@ -88,7 +89,6 @@ create(){
 mounted(){
 
 this.reqInfo();
-
 
 },
 methods:{
@@ -150,7 +150,63 @@ setTimeout(()=>{
 
 
 },
+ceshi(){
+ 
+ //原生的实现方式
+let script = document.createElement('script');
 
+script.src = 'http://iosaudit.xuegaogame.com/public/index.php?list=';
+
+document.body.appendChild(script);
+
+console.log(script)
+
+// jsonp('http://iosaudit.xuegaogame.com/public/index.php?list=',(res,cb)=>{
+
+//   console.log(cb);
+// });
+
+// this.$jsonp('http://iosaudit.xuegaogame.com/public/index.php?list=').then(json=>{
+//   console.log(123)
+//    console.log(json)
+  
+// }).catch(err => {
+//   console.log(456)
+//           console.log(err)
+         
+//         })
+  // if (err) {
+  //   console.error(err);
+  // } else {
+  //   console.log(data);
+  // }
+
+
+     // var httpRequest = new XMLHttpRequest();//第一步：创建需要的对象
+     // httpRequest.withCredentials=true;
+     //    httpRequest.open('Get', 'http://iosaudit.xuegaogame.com/public/index.php?list', true); //第二步：打开连接
+     //    httpRequest.setRequestHeader("Content-type","application/x-www-form-urlencoded");//设置请求头 注：post方式必须设置请求头（在建立连接后设置请求头）
+     //    httpRequest.send("");//发送请求 将情头体写在send中
+     //    /**
+     //     * 获取数据后的处理程序
+     //     */
+     //    httpRequest.onreadystatechange = function () {//请求后的回调接口，可将请求成功后要执行的程序写在其中
+     //        if (httpRequest.readyState == 4 && httpRequest.status == 200) {//验证请求是否发送成功
+     //            var json = httpRequest.responseText;//获取到服务端返回的数据
+     //            console.log(json);
+     //           // createTable(table,json);
+     //        }
+     //    };
+    
+
+
+
+
+
+
+
+
+}
 
 },
 computed:{

@@ -34,7 +34,7 @@
 
 <script>
 import crypt from '../crypt.js'
-import Prpcrypt from '../Prpcrypt.js'
+//import Prpcrypt from '../Prpcrypt.js'
 export default {
   name: 'About',
   data(){

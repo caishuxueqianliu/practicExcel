@@ -8,6 +8,8 @@ Vue.prototype.$md5 = md5;
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 Vue.config.productionTip = false
+import  VueJsonp  from  'vue-jsonp'
+Vue.use(VueJsonp)
 
 new Vue({
   router,

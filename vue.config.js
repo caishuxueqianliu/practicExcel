@@ -1,12 +1,12 @@
-// 谢谢，其实真正需要修改的不多，简单的项目，大部分配置都默认好了，不需要修改，
-// publicPath,assetsDir,productionSourceMap,css{sourceMap},还有devServer改下就行了
-// 我贴下一个简单的
+// // 谢谢，其实真正需要修改的不多，简单的项目，大部分配置都默认好了，不需要修改，
+// // publicPath,assetsDir,productionSourceMap,css{sourceMap},还有devServer改下就行了
+// // 我贴下一个简单的
 
 module.exports = {
-// publicPath:process.env.NODE_ENV === 'production' ? '/vue_workspac/aihuhuproject/' : '/',
+publicPath:process.env.NODE_ENV === 'production' ? '././' : '/',
 
 //基本路径
-publicPath: './',//默认的'/'是绝对路径，如果不确定在根路径，改成相对路径'./'
+//publicPath: '././',//默认的'/'是绝对路径，如果不确定在根路径，改成相对路径'./'
 // 输出文件目录
 outputDir: 'dist',
 assetsDir:'static',
@@ -32,7 +32,7 @@ https: false,
 hotOnly: false,// hot 和 hotOnly 的区别是在某些模块不支持热更新的情况下，前者会自动刷新页面，后者不会刷新页面，而是在控制台输出热更新失败
 proxy: {
 '/': {
-target: 'http://localhost:3000', //目标接口域名
+target: 'http://iosaudit.xuegaogame.com', //目标接口域名
 secure: false, //false为http访问，true为https访问
 changeOrigin: true, //是否跨域
 pathRewrite: {
