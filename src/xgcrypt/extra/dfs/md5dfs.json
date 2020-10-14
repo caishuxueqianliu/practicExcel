@@ -7,7 +7,7 @@
   "data/a877c116498e6150fda973bb0ce3b5d5/07a2d25677b7e113be324309df8s7de84.jsc":"src/RW/manager/mSDK.jsc",
   "data/a877c116498e6150fda973bb0ce3b5d5/07a2d25677b7e113be324309dfss87de89.jsc":"src/RW/RW_fileList.jsc",
   "data/a877c116498e6150fda973bb0ce3b5d5/07a2d25677b7e113be324309sfdfss87de89.jsc":"src/RW/RW_resource.jsc",
-  "data/a877c116498e6150fda973bb0ce3b5d5/07a2d25677b7e113be324309df8sa7de89.jsc":"src/RW/view/Review/RWLogin.jsc",
+  "data/a877c116498e6150fda973bb0ce3b5d5/07a2d25677b7e113be324309df8sa7de89.jsc":"src/RW/view/review/RWLogin.jsc",
   "data/a877c116498e6150fda973bb0ce3b5d5/07a2d256s77b7e113be324309df8s7de89.jsc":"src/sonsrc/LaunchMistress.jsc",
   "data/a877c116498e6150fda973bb0ce3b5d5/07a2d25677b7e113be324309daf8s7de89.jsc":"src/sonsrc/LaunchScene.jsc",
   "data/a877c116498e6150fda973bb0ce3b5d5/07a2d25677b7e113be3243sf09df8s7de89.jsc":"src/sonsrc/MatrixRouter.jsc",
@@ -8249,6 +8249,15 @@
     "data/a877c116498e6150fda973bb0ce3b5d5/72764ddc11c9a713ca74e902a0cc96da.jsc":"src/view/wearCloth/WearClothRank.jsc",
     "data/a877c116498e6150fda973bb0ce3b5d5/3ff966d870c516490ddf5123ae16a2c2.jsc":"src/view/wearCloth/WearClothRankCell.jsc",
     "data/a877c116498e6150fda973bb0ce3b5d5/97c62c1b7fc4ecacf5dc1e0088726b32.jsc":"src/view/wearCloth/WearClothShop.jsc",
-    "data/a877c116498e6150fda973bb0ce3b5d5/07a2d25677b7e113be324309df87de89.jsc":"src/view/wearCloth/WearClothSuit.jsc"
+    "data/a877c116498e6150fda973bb0ce3b5d5/07a2d25677b7e113be324309df87de89.jsc":"src/view/wearCloth/WearClothSuit.jsc",
 
+  "data/a877c116498e6150fda973bb0ce3b5safd5/3ff966d870c516490ddf5123ae16a2c2.jsc":"/res/splash/splash.png",
+  "data/a877c116498e6150fda973bb0ce3sagb5d5/97c62c1b7fc4ecacf5dc1e0088726b32.jsc":"/res/image/ui/common/disable/bg_018.png",
+  "data/a877c116498e6150fda973bb0ce3sagb5d5/97c62c1b7fc4ecacf5dc1e00887asf26b32.jsc":"ccs/review/RWConfirm.csb",
+ "data/a877c116498e6150fda973bb0ce3sagb5d5/97c62c1b7sfc4ecacf5dc1e00887asf26b32.jsc":"res/image/review/denglu/bg_001.png",
+  "data/a877c116498e6150fda973bb0ce3sagb5d5/97cf62c1b7sfc4ecacf5dc1e00887asf26b32.jsc":"res/image/review/shangcheng/bg_001.png",
+  "data/a877c116498e6150fda973bb0ce3sagb5d5/97ac62c1b7sfc4ecacf5dc1e00887asf26b32.jsc":"res/image/review/xuanqu/bg_001.png",
+  "data/a877c116498e6150fda973bb0ce3sagb5d5/97fc62c1b7sfc4ecacf5dc1e00887asf26b32.jsc":"res/image/review/zhuce/bg_001.png",
+  "data/a877c116498e6150fda973bb0ce3sagb5sd5/97c62c1b7sfc4ecacf5dc1e00887asf26b32.jsc":"res/image/review/zhujiemian/bg_001.png",
+  "data/a877c116498e6150fda973bb0ce3sagbs5d5/97c62c1b7sfc4ecacf5dc1e00887asf26b32.jsc":"res/image/review/denglujiemian/bg_001.png"
 }
