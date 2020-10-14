@@ -7,7 +7,7 @@ Vue.use(VueRouter)
   const routes = [
   {
     path:'/',
-    redirect:'/kits'
+    redirect:'/xgCrypt'
 
   },
   {
@@ -31,7 +31,16 @@ Vue.use(VueRouter)
     // which is lazy-loaded when the route is visited.
   //  component: () => import(/* webpackChunkName: "about" */ '../views/Config.vue')
     component: Config
-  }
+  },
+    {
+      path: '/xgCrypt',
+      name: 'XgCrypt',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "about" */ '../views/XgCrypt.vue')
+      //component: XgCrypt
+    }
 ]
 
 const router = new VueRouter({

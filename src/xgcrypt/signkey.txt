@@ -1,0 +1,1 @@
+{"/Users/admin/Desktop/xgcrypt/0ad13516123ecdb0830e67b34cf02773/836a8be44d20389c2dd6076d3b04c4b1.png": {"key": "ZXlAjvQKpzersaIy", "sign": "MbCpuVo"}, "/Users/admin/Desktop/xgcrypt/0ad13516123ecdb0830e67b34cf02773/836a8be44d20389c2dd6076d3b04c4b1.plist": {"key": "ZXlAjvQKpzersaIy", "sign": "MbCpuVo"}}

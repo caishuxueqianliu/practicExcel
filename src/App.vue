@@ -13,7 +13,8 @@
   <div class="navdiv">
    <router-link to="/home" class="navbar-brand" >Home</router-link>
    <router-link to="/Config" class="navbar-brand" v-show="isConf">Config</router-link>
-   <router-link to="/" class="navbar-brand" >Tools</router-link>
+   <router-link to="/kits" class="navbar-brand" >Tools</router-link>
+      <router-link to="/xgCrypt" class="navbar-brand" >XgCrypt</router-link>
  </div>
 </nav>
     </div>
