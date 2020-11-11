@@ -31,8 +31,8 @@ hot:true,//hot配置是否启用模块的热替换功能，devServer的默认行
 https: false,
 hotOnly: false,// hot 和 hotOnly 的区别是在某些模块不支持热更新的情况下，前者会自动刷新页面，后者不会刷新页面，而是在控制台输出热更新失败
 proxy: {
-'/': {
-target: 'http://iosaudit.xuegaogame.com', //目标接口域名
+'/api': {
+target: 'http://iosaudit.xuegaogame.com/', //目标接口域名
 secure: false, //false为http访问，true为https访问
 changeOrigin: true, //是否跨域
 pathRewrite: {

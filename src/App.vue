@@ -15,6 +15,7 @@
    <router-link to="/Config" class="navbar-brand" v-show="isConf">Config</router-link>
    <router-link to="/kits" class="navbar-brand" >Tools</router-link>
       <router-link to="/xgCrypt" class="navbar-brand" >XgCrypt</router-link>
+      <router-link to="/iosAudit" class="navbar-brand" >IosAudit</router-link>
  </div>
 </nav>
     </div>
@@ -38,7 +39,7 @@
     methods:{
        getTime(){
         setInterval(()=>{
-        this.time= parseInt(Date.now()/1000) 
+        this.time= parseInt(Date.now()/1000)
        },1000)
       }
     },
@@ -49,11 +50,11 @@
 
     },
     computed:{
-     
-     
+
+
     }
 }
-  
+
 
 </script>
 <style>

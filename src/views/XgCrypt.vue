@@ -57,7 +57,7 @@ import md5json from "../xgcrypt/extra/dfs/md5dfs.json"
         name:"XgCrypt",
         data(){
             return{
-                directKey:"DcBjdXvqap",
+                directKey:"",
                 fileOrDirPath:"",
                 isDir:"",
                 FileName:"",
@@ -133,6 +133,10 @@ import md5json from "../xgcrypt/extra/dfs/md5dfs.json"
                         this.FileName=this.$md5(this.FileName+this.directKey)
                       // console.log(this.FileName)
                     }
+                    else if(this.directKey==""){
+                         this.FileName=this.$md5(this.FileName)
+                        
+                    }
 
                     str.pop();
                    // console.log(str.join("/"))
@@ -143,6 +147,10 @@ import md5json from "../xgcrypt/extra/dfs/md5dfs.json"
                         this.DirPath=this.$md5(this.DirPath+this.directKey)
                       // console.log(this.DirPath)
                     }
+                       else if(this.directKey==""){
+                         this.FileName=this.$md5(this.FileName)
+                        
+                    }
 
                 }
                 else if(str.length==1){
@@ -150,6 +158,10 @@ import md5json from "../xgcrypt/extra/dfs/md5dfs.json"
                     this.FileName=this.$md5(str[0])
                     if(this.directKey!=""){
                         this.FileName=this.$md5(this.FileName+this.directKey)
+                    }
+                       else if(this.directKey==""){
+                         this.FileName=this.$md5(this.FileName)
+                        
                     }
                     //console.log(this.FileName)
                     this.DirPath="null"

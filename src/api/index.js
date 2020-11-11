@@ -22,4 +22,9 @@ export const reqPostLogin = (url,value)=> axios.post(url,null,{params:value});
 // {'Content-Type': 'application/json'}
 
 
+//中转服相关请求
+//登陆
+export const reqAudioLogin = (url,formData,value)=> axios.post(url,formData,{params:value});
 
+//获取列表
+export const reqAudioList = (url,formData)=> axios.post(url,formData);
