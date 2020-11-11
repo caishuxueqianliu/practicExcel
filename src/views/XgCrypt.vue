@@ -169,11 +169,11 @@ import md5json from "../xgcrypt/extra/dfs/md5dfs.json"
             },
         getmd5dfs(){
          //  console.log(md5json)
-            for (var i in md5json){
+         //   for (var i in md5json){
                 //console.log(i)//值
                 //console.log(md5json[i])//键
                // this.searchValue=i
-            }
+           // }
 
             //console.log(Object.values(md5json))
             // console.log(Object.keys(md5json))

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "aes": "^0.1.0",
+    "axios": "^0.21.0",
     "bootstrap": "^4.5.2",
     "cmd": "^0.1.0",
     "core-js": "^3.6.5",

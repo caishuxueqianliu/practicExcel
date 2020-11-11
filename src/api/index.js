@@ -1,7 +1,7 @@
 
 
 import axios from 'axios'
-
+const BASE = '/api';
 
 // export const reqGet = ()=>  axios.get(BASE+'/get');
 
@@ -24,7 +24,8 @@ export const reqPostLogin = (url,value)=> axios.post(url,null,{params:value});
 
 //中转服相关请求
 //登陆
-export const reqAudioLogin = (url,formData,value)=> axios.post(url,formData,{params:value});
+export const reqAudioLogin = (formData,value)=> axios.post(BASE + '/public/',formData,{params:value});
+export const reqGetAudioLogin = ()=> axios.get(BASE + '/public/');
 
 //获取列表
-export const reqAudioList = (url,formData)=> axios.post(url,formData);
+export const reqAudioList = (formData)=> axios.get(BASE + '/public/index.php?list=1',formData);
